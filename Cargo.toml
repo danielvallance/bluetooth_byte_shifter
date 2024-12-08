@@ -6,4 +6,7 @@ edition = "2021"
 [dependencies]
 cortex-m = "0.7.7"
 cortex-m-rt = "0.7.5"
+embedded-hal = "1.0.0"
+nb = "1.1.0"
 panic-itm = "0.4.2"
+stm32f3xx-hal = { version = "0.10.0", features = ["stm32f303xc"] }
